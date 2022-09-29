@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  font-family: monospace;
+}
+
+button {
+  padding: 10px 30px;
+  background-color: #b637fb;
+  color: white;
+  font-size: 1.2em;
+  border: 1px solid #b637fb;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px lightgray;
+}
+.container {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+.notifi {
+  padding: 20px 40px;
+  border-radius: 5px;
+  background-color: #b637fb;
+  border: 1px solid #b637fb;
+  color: white;
+  font-size: 1.4em;
+}
